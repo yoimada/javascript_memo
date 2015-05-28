@@ -1,0 +1,6 @@
+#topmost(fixed)
+
+var s=document.createElement('div');
+s.innerHTML='<BR><BR><font color=red> this is inner html !</font>';
+s.setAttribute("style","position:absolute;z-index:10000;background-color:#FDD;top:50px;left:50px;width:90%;height:90%");
+document.body.appendChild(s);
